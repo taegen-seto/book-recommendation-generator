@@ -22,7 +22,6 @@ h2 {
   color: #933520;
   margin: 0 0 20px 0;
 }
-
 footer {
   padding: 70px 0 5px 0;
   font-family: "Poppins", sans-serif;
@@ -66,7 +65,6 @@ footer {
   cursor: pointer;
   transition: all 200ms ease-in-out;
 }
-
 .submit-button:hover {
   background-color: #6c795f;
   color: #cbdbcd;
