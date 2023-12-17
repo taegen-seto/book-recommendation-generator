@@ -3,43 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bad+Script&family=Grandiflora+One&family=Poppins:wght@300&family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="src/style.css" />
     <title>📚 Book Recommendation Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Can't decide what to read next?</h1>
-      <h2>Try the AI Book Recommendation Generator</h2>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter a genre, author or book title you love"
-          required
-          autofocus
-          autocomplete="off"
-          class="request"
-          id="user-request"
-        />
-        <input type="submit" class="submit-button" />
-      </form>
-      <div class="recommendation">recommendation goes here</div>
-    </main>
-    <footer>
-      <a href="https://github.com/taegen-seto" target="_blank"
-        >Coded by Taegen Seto</a
-      >🖤
-      <a
-        href="https://github.com/taegen-seto/book-recommendation-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      🐈‍⬛
-      <a href="https://polite-pudding.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
-    <script src="src/index.js"></script>
+    <div class="container">
+      <header>
+        <h1>Can't decide what to read next?</h1>
+        <h2>Try the AI Book Recommendation Generator...</h2>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter a genre, author or book title you love"
+            required
+            autofocus
+            autocomplete="off"
+            class="request"
+            id="user-request"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recommendation">recommendation goes here</div>
+      </main>
+      <footer>
+        <a href="https://github.com/taegen-seto" target="_blank"
+          >Coded by Taegen Seto</a
+        >🖤
+        <a
+          href="https://github.com/taegen-seto/book-recommendation-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        🐈‍⬛
+        <a href="https://polite-pudding.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>
