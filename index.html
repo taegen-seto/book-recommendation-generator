@@ -8,9 +8,24 @@
   </head>
   <body>
     <header>
-      <h1>Book Recommendation Generator</h1>
+      <h1>Can't decide what to read next?</h1>
+      <h2>Try the AI Book Recommendation Generator</h2>
     </header>
-    <main></main>
+    <main>
+      <form action="">
+        <input
+          type="text"
+          placeholder="Enter a genre, author or book title you love"
+          required
+          autofocus
+          autocomplete="off"
+          class="request"
+          id="user-request"
+        />
+        <input type="submit" class="submit-button" />
+      </form>
+      <div class="recommendation">recommendation goes here</div>
+    </main>
     <footer>
       <a href="https://github.com/taegen-seto" target="_blank"
         >Coded by Taegen Seto</a
