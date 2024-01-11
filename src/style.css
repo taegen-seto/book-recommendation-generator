@@ -47,7 +47,7 @@ footer {
   width: 80%;
   padding: 10px 20px;
   background-color: #6c795f;
-  color: #cbdbcd;
+  color: #c6a789;
   margin: 30px 0;
 }
 ::placeholder {
@@ -78,7 +78,7 @@ footer {
   border-radius: 9px;
   border-left: 3px solid #933520;
   border-right: 3px solid #933520;
-  color: #cbdbcd;
+  color: #c6a789;
   padding: 40px 0;
 }
 .hidden {
@@ -112,5 +112,9 @@ footer {
   }
   .submit-button {
     font-size: 14px;
+  }
+  .recommendation {
+    font-size: 14px;
+    margin-top: 20px;
   }
 }
