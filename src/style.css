@@ -29,6 +29,7 @@ footer {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   margin: 0;
+  letter-spacing: 3px;
 }
 .container {
   text-align: center;
@@ -107,6 +108,7 @@ footer {
   }
   footer {
     font-size: 8px;
+    letter-spacing: 0;
   }
   ::placeholder {
     font-size: 12px;
